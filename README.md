@@ -27,11 +27,11 @@ or Octave).
 
 ### Solution
 
-Write your solution here.  Note, in the past, we've used a full, graphical
-version of Linux.  With WSL, you probably don't have as direct a path for
-exploring software in the Software Manager.  However, use the power of
-Google (or AskJeeves) to explore what sorts of open-source software is out
-there for technical or other applications.
+A software package that I use a lot is project management software because I am a part of the robotics club.
+The best type of project management software include gantt charts and an open source software package I found 
+for a gantt chart is ganttProject. It has tasks, milestones and can even assign resources to specific tasks. 
+This could be extremely useful for me as I did not succeed at project management this previous spring for 
+the robotics club and ended up having to do way more stuff than I should have.
 
 
 ## Problem 3 -- Your CPU
@@ -46,11 +46,11 @@ using `ls > directory_contents.txt` to dump the contents of a directory to a fil
 
 ### Solution
 
-To display CPU information, I used the following command:
+To display CPU information, I used the following co mmand:
 
 ```bash
-ls -al # <--- that's not right, but it shows you how to include
-       #      code in Markdown!
+lscpu #lists all info of the cpu
+
 ```
 
 ## Problem 4 -- Resource Hogs
@@ -64,6 +64,11 @@ in your writeup.
 ### Solution
 
 
+```bash
+ps aux #shows tasks running and which users are utilizing cpu
+
+```
+
 
 ## Problem 5 -- `bash`
 
@@ -74,3 +79,8 @@ Where is `bash` located on your Linux system?  And what version of
 determine this information.
 
 ### Solution
+
+```bash
+bash --version #returns the current version of bash
+
+```
